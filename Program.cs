@@ -15,6 +15,11 @@ namespace Fizz_Buzz
                {
                    output += "Fizz";
                }
+
+               if(counter % 5 == 0)
+               { 
+                   output += "Buzz";
+               }
                
                if(output == "")
                {
